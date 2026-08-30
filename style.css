@@ -22,7 +22,7 @@ body {
     color: var(--text-color);
 }
 
-/* Header & Navbar */
+
 .navbar {
     position: fixed;
     top: 0; left: 0; width: 100%;
@@ -45,8 +45,6 @@ body {
     transition: .3s;
 }
 .navbar ul li a:hover { color: var(--main-color); }
-
-/* Common Layout Elements */
  section {
     min-height: 100vh;
     padding: 10rem 10% 2rem;
@@ -74,11 +72,11 @@ body {
     box-shadow: none;
 }
 
-/* Hero Section */
+
 .hero {
     display: flex;
     align-items: center;
-    background: url('hero-bg.jpg') no-repeat center center/cover; /* Replace with your background image if needed */
+    background: url('hero-bg.jpg') no-repeat center center/cover; 
 }
 .hero-content h1 { font-size: 56px; font-weight: 700; line-height: 1.3; }
 .hero-content h3 { font-size: 32px; font-weight: 700; }
@@ -103,13 +101,11 @@ body {
     box-shadow: 0 0 20px var(--main-color);
 }
 
-/* About Section */
 .about { background: var(--second-bg-color); }
 .about-container { display: flex; justify-content: center; align-items: center; text-align: center;}
 .about-text h3 { font-size: 2.6rem; }
 .about-text p { font-size: 1.6rem; margin: 2rem 0 3rem; max-width: 800px;}
 
-/* Skills Section */
 .skills-row {
     display: flex;
     justify-content: center;
@@ -130,7 +126,7 @@ body {
 }
 .skill-box:hover { border-color: var(--main-color); }
 
-/* Projects Section */
+
 .projects { background: var(--second-bg-color); }
 .projects-container {
     display: grid;
@@ -152,7 +148,7 @@ body {
 .project-card p { font-size: 15px; margin-bottom: 20px; color: #ccc; }
 .project-card a { color: var(--main-color); font-weight: 500; }
 
-/* Contact Section */
+
 .contact form {
     max-width: 70rem;
     margin: 1rem auto;
@@ -178,7 +174,7 @@ body {
 .contact form .input-box input { width: 49%; }
 .contact form textarea { resize: none; }
 
-/* Footer */
+
 .footer {
     display: flex;
     justify-content: center;
